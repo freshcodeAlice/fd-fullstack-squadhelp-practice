@@ -45,14 +45,14 @@ class Header extends React.Component {
                 <li><Link to="/account" style={{ textDecoration: 'none' }}><span>My Account</span></Link></li>
                 <li>
                   <Link
-                    to="http:/www.google.com"
+                    to="#"
                     style={{ textDecoration: 'none' }}
                   >
                     <span>Messages</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="http:/www.google.com" style={{ textDecoration: 'none' }}><span>Affiliate Dashboard</span></Link>
+                  <Link to="#" style={{ textDecoration: 'none' }}><span>Affiliate Dashboard</span></Link>
                 </li>
                 <li><span onClick={this.logOut}>Logout</span></li>
               </ul>
@@ -83,7 +83,7 @@ class Header extends React.Component {
         <div className={styles.headerContainer}>
           <div className={styles.fixedHeader}>
             <span className={styles.info}>Squadhelp recognized as one of the Most Innovative Companies by Inc Magazine.</span>
-            <a href="http://www.google.com">Read Announcement</a>
+            <a href="#">Read Announcement</a>
           </div>
           <div className={styles.loginSignnUpHeaders}>
             <div className={styles.numberContainer}>
@@ -106,15 +106,15 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">Beauty</a></li>
-                      <li><a href="http://www.google.com">Consulting</a></li>
-                      <li><a href="http://www.google.com">E-Commerce</a></li>
-                      <li><a href="http://www.google.com">Fashion & Clothing</a></li>
-                      <li><a href="http://www.google.com">Finance</a></li>
-                      <li><a href="http://www.google.com">Real Estate</a></li>
-                      <li><a href="http://www.google.com">Tech</a></li>
+                      <li><a href="#">Beauty</a></li>
+                      <li><a href="#">Consulting</a></li>
+                      <li><a href="#">E-Commerce</a></li>
+                      <li><a href="#">Fashion & Clothing</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><a href="#">Real Estate</a></li>
+                      <li><a href="#">Tech</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">More Categories</a>
+                        <a href="#">More Categories</a>
                       </li>
                     </ul>
                   </li>
